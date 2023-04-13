@@ -1,0 +1,10 @@
+{
+  "name": "client",
+  "scripts": {
+    "start": "esr client.ts",
+    "typecheck": "tsc -b ."
+  },
+  "dependencies": {
+    "logic": "*"
+  }
+}

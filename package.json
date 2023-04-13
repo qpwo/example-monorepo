@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "scripts": {
+    "typecheck": "tsc -b .",
+    "start-all": "cd logic; npm run test; cd ../server; npm run start; cd ../client; npm run start"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "esbuild": "^0.17.16",
+    "esbuild-runner": "^2.2.2"
+  },
+  "workspaces": [
+    "client",
+    "server",
+    "logic"
+  ]
+}

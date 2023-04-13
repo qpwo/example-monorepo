@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "scripts": {
+    "start": "esr server.ts"
+  },
+  "dependencies": {
+    "logic": "*"
+  }
+}

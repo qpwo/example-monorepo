@@ -1,0 +1,8 @@
+{
+  "name": "logic",
+  "main": "logic.ts",
+  "scripts": {
+    "test": "esr test.ts",
+    "typecheck": "tsc -b ."
+  }
+}
